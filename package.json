@@ -1,0 +1,22 @@
+{
+  "name": "pacing-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -e js index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-router": "^12.0.0",
+    "nodemon": "^2.0.20",
+    "redis": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/redis": "^4.0.11"
+  }
+}
